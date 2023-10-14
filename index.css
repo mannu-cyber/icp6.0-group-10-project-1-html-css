@@ -1,0 +1,74 @@
+
+
+@font-face {
+  font-family: hey;
+  src: url(./fonts/PublicoText-SemiboldItalic-Web.woff.ttf);
+}
+
+@font-face {
+  font-family: navfont;
+  src: url(./fonts/FS\ Me-Light.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Heading-Now-Variable;
+  height: 100%;
+  width: 100%;
+
+}
+
+.page1{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+
+.navbar{
+  width: 100%;
+  height: 15%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rebeccapurple; */
+}
+
+.logo img{
+  height:100px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar-main a{
+color: white;
+font-size: 1.3vw;
+text-decoration: none;
+margin: 0 3.8vw;
+}
+
+.navbar-right i{
+  color: #fff;
+  font-size: 2.5vw;
+margin-right: 2vw;
+transition: .4s;
+}
+
+.navbar-right i:hover{
+  cursor: pointer;
+
+}
+
+.navbar-right i:nth-child(2){
+  font-size: 3vw;
+  border-left: 2px solid white;
+  padding-left: 1vw;
+}
