@@ -168,6 +168,10 @@ transition: .5s;
           transition: .4s;
      }
 
+     .copy-right{
+          font-size: 2vw;
+     }
+
 
 
 
@@ -235,6 +239,10 @@ margin:3vw 10px;
      display: block;
 
 
+}
+
+.news-letter h1{
+     font-size: 4vw;
 }
 
      }

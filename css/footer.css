@@ -1,6 +1,6 @@
 @font-face {
   font-family: foot;
-  src: url(../fonts/FS\ Me-Light.otf);
+  src: url(../fonts/UtopiaStd-SemiboldSubh.otf);
 }
 
 * {
@@ -28,9 +28,11 @@ body {
   justify-content: space-around;
   padding: 5vw;
 }
+p{
+  font-size: 1vw;
+}
 
 .address i {
-  /* padding-top: 4vw; */
   font-size: 2.4vw;
   padding: 1vw;
   transition: 1s;
@@ -39,11 +41,12 @@ body {
 
 .address i:hover {
   background-color: #8f01ff;
-  font-size: 1.49vw;
+  font-size: 2.49vw;
   cursor: pointer;
 }
 
 .footer a {
+  font-size: 1.8vw;
   color: #fff;
   text-decoration: none;
   display: inline-block;
@@ -61,15 +64,18 @@ body {
   flex-direction: column;
 }
 
+
 .footer h1 {
+font-size: 2.5vw;
+color: #8f01ff;
   display: inline-block;
-  border-bottom: solid 1px #da291c;
+  /* border-bottom: solid 1px #da291c; */
 }
 
 .newsletter h3 {
   color: linear-gradient(to right, #da291c, #8f01ff);
   font-weight: 500;
-  font-size: 1.4vw;
+  font-size: 2.4vw;
   margin: 1vw 0;
 }
 
@@ -101,9 +107,10 @@ body {
   background-color: white;
   color: #000;
   padding: 2vw 0;
+  font-size: 2vw;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
 
       
   .footer {
@@ -121,6 +128,7 @@ body {
   display: block;
   border: none;
   margin: 5vw 0;
+  font-size: 10vw;
 }
 
 .address p {
@@ -146,9 +154,14 @@ body {
   line-height: 1vw;
   display: block;
   margin: 5vw;
+  font-size: 4.5vw;
+}
+.usefulllinks h1{
+  font-size: 6vw;
 }
 
 .usefulllinks {
+  
      display: flex;
 flex-direction: column;
 gap:4vw;
@@ -156,10 +169,14 @@ gap:4vw;
 
 .usefulllinks a{
      margin-left: 4vw;
+     font-size: 4.5vw;
 }
 
-.newsletter{
+.newsletter {
      margin-top: 3vw;
+}
+.newsletter h1{
+  font-size: 7vw;
 }
 
 .newsletter h3{
