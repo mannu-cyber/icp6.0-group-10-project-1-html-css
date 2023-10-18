@@ -4,8 +4,8 @@
 }
 
 @font-face {
-     font-family: para;
-     src: url(../fonts/para.ttf);
+     font-family: chacha;
+     src: url(../fonts/normal.ttf);
 }
 
 *{
@@ -17,13 +17,12 @@
 html, body{
      width: 100%;
      min-width: 100%;
-     background-color: #000;
-     color: #fff;
+    background-color: #FFD6FF;
 }
 
 
 p{
-     font-family: para;
+     font-family: chacha;
 }
 
 .main{
@@ -33,18 +32,17 @@ p{
 .main>h1{
      font-stretch: 300%;
      font-family: head;
-     color: wheat;
-     font-weight: 400;
+     color: #000000cb;
+     font-weight: 700;
      margin: 2vw 35%;
      font-size: 5vw;
 }
 .content h1{
+     font-weight: 900;
      font-family: "head";
      font-stretch: 300%;
-     background: linear-gradient(to right,#da291c,#8f01ff);
-     -webkit-text-fill-color: transparent;
-     background-clip: none;
-     -webkit-background-clip: text;
+color: #757cb2;
+ 
 }
 
 .left{
@@ -62,8 +60,8 @@ p{
 
 .left .img-container img:hover{
      max-width: 98%;
-     border: 1vw solid transparent;
-     background-image: linear-gradient(to right,#da291c,#8f01ff);
+     border: .3vw solid transparent;
+     background-image: linear-gradient(to right,#da291c8f,#8f01ff);
 
 }
 
@@ -87,16 +85,16 @@ font-weight: 400;
 
 .left p{
      font-size: 2vw;
-     font-weight: 500;
+     font-weight: 100px;
      letter-spacing: -4px;
 }
 
 .content button{
-     font-size: 2vw;
+     font-size:1.4vw;
 padding: 1vw 4vw;
 margin-top: 1.5vw;
 border: none;
-background: linear-gradient(to left, #da291c, #8f01ff);
+background-color:  #B8C0FF;
 transition: .5s;
 
 }
@@ -157,8 +155,8 @@ transition: .5s;
      
      .right .img-container img:hover{
           max-width: 98%;
-          border: 1vw solid transparent;
-          background-image: linear-gradient(to right,#da291c,#8f01ff);
+          border: .3vw solid transparent;
+          background-image: linear-gradient(to right,#da291ca7,#9101ffa8);
      
      }
      
@@ -169,6 +167,8 @@ transition: .5s;
      }
 
      .copy-right{
+          color: white;
+          background-color:black;
           font-size: 2vw;
      }
 
