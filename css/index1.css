@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*background video start*/
+ /*background video start*/
 .back-video{
      width: 100%;
      opacity: 0.8;
@@ -222,6 +222,9 @@
  .Alumni{
      height: auto;
     }
+    .Alumni-container p{
+        font-size: 15px;
+    }
     .Empower h2{
      text-align: center;
 }
@@ -236,6 +239,9 @@
     }
     .Alumni{
      height: auto;
+    }
+    .Alumni-container p{
+        font-size: 15px;
     }
     .Empower{
      height: auto;

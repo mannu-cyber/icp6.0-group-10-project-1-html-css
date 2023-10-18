@@ -13,12 +13,13 @@ html,
 body {
   width: 100%;
   height: 70%;
-  background-color: #000;
-  font-family: foot;
-  color: white;
+ 
 }
 
 .footer {
+  background-color: #000;
+  font-family: foot;
+  color: white;
   width: 100%;
   height: 100%;
   line-height: 3vw;
