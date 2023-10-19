@@ -17,6 +17,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 html,
@@ -26,6 +27,7 @@ body {
   background-color:#FFD6FF;
   font-family: foot;
   color: #000;
+ 
 }
 
 
@@ -138,7 +140,7 @@ background-color: #B8C0FF;
 
 .newsletter button:hover {
   scale: 0.88;
-  background: linear-gradient(to left, #da291ca9, #9101ffa9);
+  background-color:  #9101ffa9;
   color: white;
   cursor: pointer;
 }

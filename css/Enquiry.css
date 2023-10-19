@@ -1,31 +1,37 @@
 body{
-    background-color: #b8c0ff;
+    background-color: #FFD6FF;
+
 }
 
 .heading{
     text-align: center;
-    font-size: 50;
+    font-size: 30px;
     font-style: normal;
     color: black;
+    margin: 20px;
 }
 
 .form{
     color:black;  
-    background-color: #f7dff5;  
+    background-color: #b8c0ff;  
     border: 4px solid #000000;
     margin: auto;
     width: min(600px, 80%);
     padding: 20px;
     border: 3px solid #000;
-    border-radius: 10px;
+    border-radius: 5px;
 }
-
 .label{
     display: block;
     margin-bottom: 5px;
+    padding: 0;
     font-weight: bold;
+     font-size: 20px;
+     float: left;
 
-
+}
+.radio-btn{
+    font-size: 20px;
 }
 
 .text{
@@ -33,7 +39,8 @@ body{
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
 .msg{
@@ -42,11 +49,11 @@ body{
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 5px; 
-    height: 80px;
+    height: 100px;
 }
 
 .btn{
-    background-color: rgb(218,41,28);
+    background-color: rgb(185, 13, 232);
     color: #fff;
     padding: 10px 20px;
     border: none;
