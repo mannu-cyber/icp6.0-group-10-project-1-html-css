@@ -14,7 +14,7 @@
         body{
             background-size: cover;
             font-family: sans-serif;
-            background-color: black;
+            background-color:#FFD6FF;
         }
         .login-wrapper{
             height: 100vh;
@@ -34,6 +34,46 @@
             box-shadow: 0 15px 25px  rgba(0,0,0,0.5)
 
         }
+
+
+        .title {
+     /* text-align: center; */
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  margin-bottom: 2vw;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+  color: #000;
+}
+
+.title::before {
+  width: 18px;
+  height: 18px;
+  margin-left: 8vw;
+}
+
+.title::after {
+  width: 18px;
+  height: 18px;
+  margin-left: 8vw;
+  animation: pulse 1s linear infinite;
+}
+
+.title::before,
+.title::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: #000;
+}
+
         .form::before{
             content: "";
             position: absolute;
@@ -46,6 +86,18 @@
             border-radius: 10px;
             pointer-events: none;
         }
+
+        @keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
 
         .form img{
             position: absolute;
@@ -87,24 +139,19 @@
         }
         
         
-        .submit-btn{
-            display: block;
-            margin-left: 100px;
-            margin-bottom: 30px;
-            border: none;
-            outline: none;
-            background: linear-gradient(to right, #ef1515,#e305ab,#d205e5,#d205e5,#5504ce);
-            font-size: 1rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-          }
-
+        .submit-btn {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: .3s ease;
+  background-color: #9A9DE8;
+  transition: .5s;
+}
         .submit-btn:hover{
          scale: 0.88;
-         background: linear-gradient(to left, #da291c, #8f01ff);
          color: white;
          cursor: pointer;
         }
@@ -122,7 +169,7 @@
             right: 0;
             height: 0;
             z-index: 1;
-            background: #fff;
+          
             opacity: 0;
             transition: 0.6s;
 
@@ -146,7 +193,7 @@
 <body>
 <div class="login-wrapper">
    <form action="" class="form">
-    <h2>Login</h2>
+    <p class="title">Login </p>
     <div class="input-group">
         <input type="text" placeholder="Enter Username"  name="loginUser" id="loginUser" required />
        
@@ -157,6 +204,9 @@
    
    </div>
    <input type="submit" value="Login" class="submit-btn" />
+   <p class="signin" style="text-align: right; margin-bottom: 10px;" >New here? <a href="../pages/registration.html">Registation</a> </p>
+
+
    </form>
 </div>
     

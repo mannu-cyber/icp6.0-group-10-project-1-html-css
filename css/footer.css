@@ -51,11 +51,12 @@ body {
 }
 .address p{
   font-size: 2vw;
+  width: 30vw;
   font-family: para;
 }
 
 
-.address h4{
+.address h1{
   font-size: 1.2vw;
   line-height:1.5vw;
   font-weight: 00;
@@ -64,7 +65,8 @@ body {
 
 .address .social-icon i{
   font-size: 2.5vw;
-  margin: 1vw 1.5vw;
+  margin: 0vw 1.5vw;
+  color: black;
 
 }
 
@@ -170,12 +172,14 @@ background-color: #B8C0FF;
   border: none;
   margin: 5vw 0;
   font-size: 10vw;
+  line-height:10vw;
 }
 
 .address p {
-  font-size: 4.2vw;
+  font-size: 6vw;
   line-height: 5vw;
-  margin-bottom: 5vw;
+  /* margin-bottom: 5vw; */
+  width: 100%;
 }
 
 .address i {
@@ -255,4 +259,11 @@ gap:4vw;
   font-size: 8vw;
   cursor: pointer;
 }
+
+.copyright{
+  font-size: 4vw;
+  margin-bottom: 3vw;
+}
+
+
 }

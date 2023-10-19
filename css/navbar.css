@@ -66,7 +66,7 @@ nav ul li a:active{
 }
 
 
-a.active,a:hover{
+nav a:hover{
   background: #E7C6FF;
   transition: .5s;
   color: black;
