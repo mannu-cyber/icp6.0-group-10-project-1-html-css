@@ -8,8 +8,8 @@
 html,body{
    /* height: 100%; */
     display: grid;
-    place-items: center;
-    background: #f2f2f2;
+    place-items: center; 
+       background: #ffd6ff;
     text-align: center;
 }
 .h1{
@@ -31,7 +31,7 @@ html,body{
 .card{
     height: 290px;
     max-width: 350px;
-    margin: 0 20px ;
+    margin: 7vw 20px ;
     background: white;
     transition: 0.4s;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
@@ -39,7 +39,7 @@ html,body{
 }
 .card:hover{
     height: 400px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    border: 1px solid gray;
 }
 .card-img{
     height: 200px;
@@ -50,6 +50,7 @@ html,body{
     height: 100%;
     width: 100%;
     object-fit: cover;
+padding: 2px;
 }
 .card .top-text{
     padding: 5px;
@@ -98,7 +99,7 @@ html,body{
     transition: 1s;
 }
 
-@media screen and (max-width:978px){
+/* @media screen and (max-width:978px){
     .container{
         flex-wrap: wrap;
         flex-direction: column;
@@ -109,4 +110,4 @@ html,body{
         margin: 20px 0;
     }
 
-}
+} */
