@@ -24,6 +24,11 @@ z-index: 2;
   
 }
 
+
+nav h1{
+  display: none;
+}
+
 nav img{
   height: 90px;
   width: 100px;
@@ -100,6 +105,12 @@ nav a:hover{
     font-size: 22px;
     padding-left: 70px;
   }
+
+nav h2{
+  font-size: 4vw;
+  margin-left: 2vw;
+}
+
   ul{
     position: fixed;
     width: 100%;
@@ -111,6 +122,8 @@ nav a:hover{
     transition: all .5s;
     z-index: 9999;
   }
+
+  
   nav ul li{
     display: block;
     margin: 50px 0;

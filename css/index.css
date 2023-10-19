@@ -283,6 +283,8 @@ height: auto;
   
 }
 
+
+
 .back{
 
 width:100%;
@@ -366,11 +368,16 @@ padding: 1.6vw 5vw;
 
 
 .Empower{
+  width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
 }
 
+
+.Empower img{
+  max-width: 100%;
+}
 
 .Empower h2{
   text-align: center;
