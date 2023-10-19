@@ -15,11 +15,15 @@ body{
 }
 nav{
   background-color: black;
-  height: 100px;
+  height: 90px;
   width: 100%;
-
+position: sticky;
+top: 0;
+z-index: 2;
+/* position: relative; */
   
 }
+
 nav img{
   height: 90px;
   width: 100px;
@@ -29,30 +33,39 @@ nav img{
 label.logo{
   color: white;
   font-size: 30px;
-  line-height: 80px;
+  line-height: 70px;
   padding-left: 80px;
   font-weight: bold;
   margin-left: -80px;
+  position: absolute;
 
 }
 nav ul{
   float: right;
   margin-right: 20px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 
 }
 nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
+  
 }
 nav ul li a{
-  color: white;
+  color: #B8C0FF;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
 }
+
+
+nav ul li a:active{
+  background-color: #E7C6FF;
+}
+
+
 a.active,a:hover{
   background: #E7C6FF;
   transition: .5s;
