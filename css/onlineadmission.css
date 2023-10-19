@@ -9,6 +9,12 @@ body{
 .header{
     color: rgb(14, 13, 13);
 }
+
+
+.registration{
+    display: flex;
+    justify-content: center;
+align-items: center;}
 .form{
     font-size: 40px;
     color: rgb(12, 11, 11);
