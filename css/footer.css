@@ -17,23 +17,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
 }
 
 html,
 body {
   width: 100%;
   /* height: 50vh; */
-  background-color:#FFD6FF;
+  background-color: #FFD6FF;
   font-family: foot;
   color: #000;
- 
+
 }
 
 
 
 .footer {
-  margin-top:2vh;
+  margin-top: 2vh;
   /* background-color: #000; */
   font-family: foot;
 
@@ -47,25 +47,26 @@ body {
   padding: 5vw;
 }
 
-.address{
+.address {
   position: relative;
   right: 2.4vw;
 }
-.address p{
+
+.address p {
   font-size: 2vw;
   width: 30vw;
   font-family: para;
 }
 
 
-.address h1{
+.address h1 {
   font-size: 1.2vw;
-  line-height:1.5vw;
+  line-height: 1.5vw;
   font-weight: 00;
   margin-bottom: 1vw;
 }
 
-.address .social-icon i{
+.address .social-icon i {
   font-size: 2.5vw;
   margin: 0vw 1.5vw;
   color: black;
@@ -86,6 +87,7 @@ body {
   display: inline-block;
   transition: 0.5s;
 }
+
 .footer a:hover {
   border-bottom: 2px solid #8f01ff;
   scale: 0.88;
@@ -99,18 +101,18 @@ body {
 }
 
 
-.usefulllinks{
+.usefulllinks {
   position: relative;
   left: 1.5vw;
 }
 
 .footer h1 {
-font-size: 2vw;
-color:#757cb2;
+  font-size: 2vw;
+  color: #757cb2;
   display: inline-block;
 }
 
-.newsletter{
+.newsletter {
   position: relative;
   left: 3vw;
 }
@@ -131,7 +133,7 @@ color:#757cb2;
 .newsletter button {
   font-size: 1.4vw;
   padding: 1vw 2vw;
-background-color: #B8C0FF;
+  background-color: #B8C0FF;
   margin-top: 1vw;
   border: none;
   transition: 1s;
@@ -140,7 +142,7 @@ background-color: #B8C0FF;
 
 .newsletter button:hover {
   scale: 0.88;
-  background-color:  #9101ffa9;
+  background-color: #9101ffa9;
   color: white;
   cursor: pointer;
 }
@@ -156,8 +158,6 @@ background-color: #B8C0FF;
 
 @media (max-width: 600px) {
 
-
-      
   .footer {
     height: auto;
     flex-direction: column;
@@ -169,103 +169,106 @@ background-color: #B8C0FF;
     margin: 5vw 0;
   }
 
-.address h1 {
-  display: block;
-  border: none;
-  margin: 5vw 0;
-  font-size: 10vw;
-  line-height:10vw;
-}
+  .address h1 {
+    display: block;
+    border: none;
+    margin: 5vw 0;
+    font-size: 10vw;
+    line-height: 10vw;
+  }
 
-.address p {
-  font-size: 6vw;
-  line-height: 5vw;
-  /* margin-bottom: 5vw; */
-  width: 100%;
-}
+  .address p {
+    font-size: 6vw;
+    line-height: 5vw;
+    /* margin-bottom: 5vw; */
+    width: 100%;
+  }
 
-.address i {
-  font-size: 8vw;
-  padding-top: 4vw;
-}
+  .address i {
+    font-size: 8vw;
+    padding-top: 4vw;
+  }
 
-.quicklinks {
-  margin-top: 10vw;
-  display: block;
-}
+  .quicklinks {
+    margin-top: 10vw;
+    display: block;
+  }
 
-.quicklinks h1 {
-  font-size: 7vw;
-}
-.quicklinks a {
-  line-height: 1vw;
-  display: block;
-  margin: 5vw;
-  font-size: 4.5vw;
-}
-.usefulllinks h1{
-  font-size: 6vw;
-}
+  .quicklinks h1 {
+    font-size: 7vw;
+  }
 
-.usefulllinks {
-  
-     display: flex;
-flex-direction: column;
-gap:4vw;
-}
+  .quicklinks a {
+    line-height: 1vw;
+    display: block;
+    margin: 5vw;
+    font-size: 4.5vw;
+  }
 
-.usefulllinks a{
-     margin-left: 4vw;
-     font-size: 4.5vw;
-}
+  .usefulllinks h1 {
+    font-size: 6vw;
+  }
 
-.newsletter {
-     margin-top: 3vw;
-}
-.newsletter h1{
-  font-size: 7vw;
-}
+  .usefulllinks {
 
-.newsletter h3{
-     font-size: 4vw;
-     margin-bottom:3vw ;
-     margin-left: 3vw;
-}
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+  }
 
-.newsletter input{
-     font-size: 4vw;
-     display: inline-block;
+  .usefulllinks a {
+    margin-left: 4vw;
+    font-size: 4.5vw;
+  }
 
-}
+  .newsletter {
+    margin-top: 3vw;
+  }
 
+  .newsletter h1 {
+    font-size: 7vw;
+  }
 
-.newsletter button {
-     font-size: 5vw;
-}
+  .newsletter h3 {
+    font-size: 3vw;
+    margin-bottom: 4vw;
+    margin-left: 3vw;
+  }
+
+  .newsletter input {
+    font-size: 4vw;
+    display: inline-block;
+
+  }
 
 
-.newsletter button:hover {
-  scale: 1;
-
-  cursor: none;
-}
-
-.footer a:hover {
-  border-bottom:none;
-  scale:1;
-}
+  .newsletter button {
+    font-size: 5vw;
+  }
 
 
-.address i:hover {
-  background-color:#000;
-  font-size: 8vw;
-  cursor: pointer;
-}
+  .newsletter button:hover {
+    scale: 1;
 
-.copyright{
-  font-size: 4vw;
-  margin-bottom: 3vw;
-}
+    cursor: none;
+  }
+
+  .footer a:hover {
+    border-bottom: none;
+    scale: 1;
+  }
+
+
+  .address i:hover {
+    background-color: #000;
+    font-size: 8vw;
+    cursor: pointer;
+  }
+
+  .copyright {
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
 
 
 }
