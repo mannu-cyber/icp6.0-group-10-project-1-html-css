@@ -348,8 +348,14 @@ padding: 1.6vw 5vw;
 
 .Alumni-container{
   width: 80%;
-  height: 50vh;
+  height:auto;
 }
+
+.Alumni-container img:hover{
+  margin-left: 0;
+
+}
+
 
 .Alumni-container img{
   margin: 1vw auto;
@@ -394,4 +400,101 @@ padding: 20px;
 }
 
 }
- 
+
+
+@media only screen and (max-width: 950px) and (min-width: 601px)  {
+
+
+
+.top button{
+font-size: 35px;
+padding: 15px 40px;
+font-weight: 600;
+margin-left: 120px;
+
+}
+
+.course h1{
+  font-size: 70px;
+  margin: 50px 0;
+}
+
+.course .card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); 
+}
+
+.course span{
+  font-size: 45px;
+}
+
+.course h3{
+  font-size: 40px;
+}
+
+.course button{
+  font-size: 40px ;
+  padding: 15px 50px;
+}
+
+.heading h1{
+  font-size: 60px;
+  margin: 40px 0;
+}
+
+.Alumni{
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+}
+
+.Alumni-container{
+
+height: auto;
+  width: 400px;
+justify-content: center;
+
+}
+
+.Alumni-container img{
+width: 90%;
+display: block;
+margin: 0 auto;
+}
+
+
+.Alumni-container .name{
+  font-size: 40px;
+  
+
+}
+
+
+.Alumni-container p:nth-child(3){
+  font-size: 35px;
+}
+
+.Empower{
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.Empower img{
+  width: 100%;
+  height: 700px;
+
+}
+
+.Empower h2{
+  font-size: 90px;
+  margin-top: 0;
+  margin-left: 20px;
+}
+.Empower p{
+  font-size: 50px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+
+}
