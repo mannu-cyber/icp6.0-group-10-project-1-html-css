@@ -30,7 +30,7 @@ html,body{
 .card{
     height: 408px;
     max-width: 350px;
-    margin:4vw 20px ;
+    margin:2vw 20px ;
     background: white;
     transition: 0.4s;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
