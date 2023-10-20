@@ -8,11 +8,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /*background video start*/
 
-html, body{
-width: 100%;
-height: auto;
+html,
+body {
+  width: 100%;
+  height: auto;
 }
 
 .main-page {
@@ -22,6 +24,7 @@ height: auto;
   position: relative;
   background-color: #000;
 }
+
 .back {
   /* background-color: rebeccapurple; */
   width: 100%;
@@ -33,6 +36,7 @@ height: auto;
   top: 0;
   margin-left: 2vw;
 }
+
 /*background video end*/
 .top {
   text-align: center;
@@ -85,14 +89,16 @@ height: auto;
 
 /* course cards start*/
 .course {
-  background-color: #ffd6ff;
+  background-color: #c8b6ff;
   height: auto;
   box-shadow: 2px 1px 3px 2px black;
 }
+
 .course h1 {
   margin: 25px auto;
   text-align: center;
 }
+
 .card-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -101,6 +107,7 @@ height: auto;
   padding: 20px;
   gap: 20px;
 }
+
 .card-list .card-item {
   background: #fff;
   padding: 26px;
@@ -112,15 +119,18 @@ height: auto;
   border: 2px solid transparent;
   transition: border 0.5s ease;
 }
+
 .card-list .card-item:hover {
   border: 2px solid #000;
 }
+
 .card-list .card-item img {
   width: 100%;
   aspect-ratio: 16/9;
   border-radius: 8px;
   object-fit: cover;
 }
+
 .card-list span {
   text-transform: uppercase;
   display: block;
@@ -132,24 +142,29 @@ height: auto;
   border-radius: 50px;
   font-weight: 600;
 }
+
 .card-list .developer {
   background-color: #f7dff5;
   color: #b22485;
 }
+
 .card-list .designer {
   background-color: #d1e8ff;
   color: #2968a8;
 }
+
 .card-list .editor {
   background-color: #d6f8d6;
   color: #205c20;
 }
+
 .card-item h3 {
   color: #000;
   font-size: 1.438rem;
   margin-top: 28px;
   font-weight: 600;
 }
+
 .btn {
   display: block;
   margin: 0 auto;
@@ -158,11 +173,12 @@ height: auto;
   color: #000;
   /* height: 40px; */
   border-radius: 10px;
-  background-color: #b8c0ff;
+  background-color: #ffd6ff;
   /* margin-bottom: -10px; */
   margin-top: 40px;
   font-weight: 500;
 }
+
 .card-list .card-item .btn:hover {
   background: transparent;
   color: #000;
@@ -181,6 +197,7 @@ height: auto;
   text-transform: uppercase;
   margin-top: 10px;
 }
+
 .Alumni {
   background-color: #c8b6ff;
   height: 500px;
@@ -207,10 +224,12 @@ height: auto;
   height: 440px;
   text-align: center;
 }
+
 .Alumni-container:hover {
   box-shadow: 2px 2px 8px #000000;
   border-radius: 8px;
 }
+
 .alumni-profile {
   border-radius: 10px;
   display: block;
@@ -219,11 +238,13 @@ height: auto;
   margin-top: px;
   margin-left: -7.8px;
 }
+
 .alumni-profile:hover {
   box-shadow: 2px 1px 5px black;
   margin-top: 5px;
   margin-left: -7.8px;
 }
+
 .name {
   color: #e5056a;
   font-size: 25px;
@@ -231,9 +252,11 @@ height: auto;
   text-align: center;
   margin-top: 10px;
 }
+
 .Alumni-container p {
   margin-top: 10px;
 }
+
 /* alumni cards end*/
 /* Empower section starts*/
 .Empower {
@@ -246,6 +269,7 @@ height: auto;
   display: flex;
   /* flex-wrap: wrap; */
 }
+
 .Empower img {
   height: 450px;
   width: 600px;
@@ -254,14 +278,17 @@ height: auto;
   box-shadow: 2px 2px 4px black;
   justify-content: center;
 }
+
 .para {
   font-size: 20px;
   margin-top: 20px;
 }
+
 .Empower h2 {
   font-size: 50px;
   margin-top: 100px;
 }
+
 /* Empower section end*/
 /* media query start*/
 
@@ -270,82 +297,93 @@ height: auto;
 
 
 @media (max-width:600px) {
-  
-.main-page{
-  flex-wrap: wrap;
-  width: 100%;
-  height: auto;
-}
 
-.logo{
-  font-size: 50px;
-  margin-top: 2vw;
-  
-}
+  .main-page {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
 
+  .logo {
+    font-size: 50px;
+    margin-top: 2vw;
 
-
-.back{
-
-width:100%;
-
-}
-
-.back video{
-  background-color: black;
-max-width:95%;
-
-}
-
-.top{
-position: relative;
-bottom: 4vw;
-
-}
-
-.top h3{
-  font-size: 10vw;
-  line-height: 9vw;
-}
-
-.top button{
-font-size: 4vw;
-padding: 1.6vw 5vw;
-}
+  }
 
 
-.course h1{
-  margin-top: 4vw;
-  padding-top: 4vw;
 
-}
+  .back {
 
-.course span{
-  font-size: 5vw;
-}
+    width: 100%;
+
+  }
+
+  .back video {
+    background-color: black;
+    max-width: 95%;
+
+  }
+
+  .top {
+    position: relative;
+    bottom: 4vw;
+
+  }
+
+  .top h3 {
+    font-size: 10vw;
+    line-height: 9vw;
+  }
+
+  .top button {
+    font-size: 4vw;
+    padding: 1.6vw 5vw;
+  }
 
 
-.course h3{
-  font-size: 5vw;
-  margin-left: 2vw;
-}
+  .course h1 {
+    margin-top: 4vw;
+    padding-top: 4vw;
 
-.course button{
-  font-size: 4vw;
-  padding: 1.5vw 5vw;
-}
+  }
 
-.Alumni{
-  flex-wrap: wrap;
-  height: auto;
-}
+  .course span {
+    font-size: 5vw;
+  }
 
-.heading>h1{
 
-  padding: 4vw;
-  font-size:6vw;
-}
+  .course h3 {
+    font-size: 5vw;
+    margin-left: 2vw;
+  }
 
+  .course button {
+    font-size: 4vw;
+    padding: 1.5vw 5vw;
+  }
+
+  .Alumni {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .heading>h1 {
+
+    padding: 4vw;
+    font-size: 6vw;
+  }
+
+<<<<<<< HEAD
+  .Alumni-container {
+    width: 80%;
+    height: 50vh;
+  }
+
+  .Alumni-container img {
+    margin: 1vw auto;
+    max-width: 100%;
+  }
+=======
 .Alumni-container{
   width: 80%;
   height:auto;
@@ -361,44 +399,48 @@ padding: 1.6vw 5vw;
   margin: 1vw auto;
   max-width: 100%;
 }
+>>>>>>> d261ecfea182eedcb922abc569e45a265c69aeaf
 
-.Alumni-container .name{
-  font-size: 5vw;
-  color:#5257df ;
+  .Alumni-container .name {
+    font-size: 5vw;
+    color: #5257df;
 
+  }
+
+  .Alumni-container p:nth-child(3) {
+    font-size: 3.5vw;
+  }
+
+
+  .Empower {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .Empower img {
+    max-width: 100%;
+  }
+
+  .Empower h2 {
+    text-align: center;
+    margin: 0;
+    color: #000;
+  }
+
+
+  .Empower p {
+    font-size: 6vw;
+    color: #000000a8;
+    padding: 20px;
+
+  }
+
+<<<<<<< HEAD
 }
-
-.Alumni-container p:nth-child(3){
-  font-size: 3.5vw;
-}
-
-
-.Empower{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-.Empower img{
-  max-width: 100%;
-}
-
-.Empower h2{
-  text-align: center;
-  margin: 0;  
-  color:#000;
-}
-
-
-.Empower p{
-  font-size: 6vw;
-color: #000000a8;
-padding: 20px;
-
-}
-
+=======
 }
 
 
@@ -498,3 +540,4 @@ margin: 0 auto;
 
 
 }
+>>>>>>> d261ecfea182eedcb922abc569e45a265c69aeaf

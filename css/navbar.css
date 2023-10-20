@@ -149,6 +149,7 @@ nav a:hover{
 @media (max-width: 600px) {
   .checkbtn{
     display: block;
+    color: white;
   }
   label.logo{
     font-size: 12px;
@@ -189,12 +190,20 @@ nav h2{
     left: 0;
   }
 }
+<<<<<<< HEAD
+/*
+=======
 
 /* 
 
+>>>>>>> d261ecfea182eedcb922abc569e45a265c69aeaf
 section{
   background: url(bg1.jpg) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
+<<<<<<< HEAD
+}*/
+=======
 }
 */ 
+>>>>>>> d261ecfea182eedcb922abc569e45a265c69aeaf
