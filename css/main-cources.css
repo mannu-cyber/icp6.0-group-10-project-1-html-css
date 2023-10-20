@@ -64,7 +64,7 @@ padding: 2px;
 .card .top-text p{
     font-size: 20px;
     font-weight: 600;
-    color: #e74c3c;
+    color: #e74d3c9a;
     line-height: 20px;
 }
 .card .bottom-text{
@@ -84,19 +84,25 @@ padding: 2px;
 }
 .card .bottom-text .btn{
     margin: 10px 0;
+    border: 1px solid black;
     text-align: left;
+    display: inline-block;
+    border-radius: 3px;
 }
 .card .bottom-text .btn a{
+    font-size: 1.4vw;
     text-decoration: none;
-    background: #e74c3c;
+    background: #e74d3cca;
     color: #f2f2f2;
-    padding: 5px 8px ;
+    padding: 8px 2vw ;
     border-radius: 3px;
+    border: none;
     display: inline-flex;
     transition: 2s;
 }
 .card .bottom-text .btn a:hover{
-    transition: 1s;
+color: black;
+    background-color: white;
 }
 
 /* @media screen and (max-width:978px){
