@@ -28,7 +28,7 @@ html,body{
     flex-wrap: wrap;
 }
 .card{
-    height: 290px;
+    height: 408px;
     max-width: 350px;
     margin:4vw 20px ;
     background: white;
@@ -37,7 +37,7 @@ html,body{
 
 }
 .card:hover{
-    height: 400px;
+    height: 410px;
 border: 1px solid black;
 }
 .card-img{

@@ -29,7 +29,8 @@ html,body{
     flex-wrap: wrap;
 }
 .card{
-    height: 290px;
+    border-radius: 5px;
+    height: 400px;
     max-width: 350px;
     margin: 7vw 20px ;
     background: white;
@@ -38,7 +39,7 @@ html,body{
 
 }
 .card:hover{
-    height: 400px;
+    height: 410px;
     border: 1px solid gray;
 }
 .card-img{

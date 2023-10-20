@@ -119,10 +119,17 @@ justify-content: space-around;
   display: flex;
   justify-content: center;
   gap: 15px;
-
 }
 
+.tarif-cont:hover{
+  scale: .96;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+
 .tarif-cont{
+  transition: .5s;
   margin-top: 10px;
   border-radius: 5px;
   width: 300px;
@@ -232,6 +239,7 @@ justify-content: space-around;
   transform: scale(1.1);
  }
  
+
  .card-avatar:hover {
   transform: scale(1.1);
  }
@@ -294,8 +302,10 @@ margin: 0;
 .tarif{
   flex-wrap: wrap;
   padding: 0;
+  
 
 }
+
 
 
 .faculty{
