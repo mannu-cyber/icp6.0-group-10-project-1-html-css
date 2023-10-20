@@ -24,6 +24,8 @@ education that equips our students with the skills, knowledge, and confidence to
 Our vision is to be a beacon of creativity, inspiring the next generation of artists to push boundaries, challenge norms, and create art that resonates with the world. Through innovative education, 
 unwavering dedication, and a commitment to artistic excellence, we aim to illuminate bright and diverse futures for our students.
 
+# Preview Of Our Website
+
 ![Screenshot 2023-10-20 101520](https://github.com/Chetu1911/icp6.0-group-10-project-1-html-css/assets/95085404/7e8e9e88-7420-404a-bece-4a070c58759d)
 
 
