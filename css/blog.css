@@ -4,111 +4,113 @@
 }
 
 @font-face {
-     font-family: para;
-     src: url(../fonts/para.ttf);
+     font-family: chacha;
+     src: url(../fonts/paragraph.ttf);
 }
 
-*{
+* {
      padding: 0;
      margin: 0;
      box-sizing: border-box;
 }
 
-html, body{
+/* html, body{
      width: 100%;
      min-width: 100%;
-     background-color: #000;
-     color: #fff;
+} */
+
+
+p {
+     font-family: chacha;
+     /* letter-spacing: 2vw; */
 }
 
-
-p{
-     font-family: para;
-}
-
-.main{
+.main {
+     background-color: #FFD6FF;
      width: 100%;
-     min-height: 100%;
-}         
-.main>h1{
+     height: auto;
+     margin-bottom: 1vw;
+}
+
+.main>h1 {
      font-stretch: 300%;
      font-family: head;
-     color: wheat;
-     font-weight: 400;
+     color: #000000cb;
+     font-weight: 700;
      margin: 2vw 35%;
      font-size: 5vw;
 }
-.content h1{
+
+.content h1 {
+     font-weight: 900;
      font-family: "head";
      font-stretch: 300%;
-     background: linear-gradient(to right,#da291c,#8f01ff);
-     -webkit-text-fill-color: transparent;
-     background-clip: none;
-     -webkit-background-clip: text;
+     color: #757cb2;
+
 }
 
-.left{
+.left {
 
      width: 100%;
      height: 50vh;
      display: flex;
 }
 
-.left .img-container{
+.left .img-container {
      width: 50%;
      margin-left: 2vw;
-/* background-color: pink; */
+     /* background-color: pink; */
 }
 
-.left .img-container img:hover{
+.left .img-container img:hover {
      max-width: 98%;
-     border: 1vw solid transparent;
-     background-image: linear-gradient(to right,#da291c,#8f01ff);
+     border: .3vw solid transparent;
+     background-image: linear-gradient(to right, #da291c8f, #8f01ff);
 
 }
 
- .img-container img{
+.img-container img {
      max-width: 100%;
      height: 100%;
      transition: .4s;
 }
 
-.left .content{
+.left .content {
      width: 50%;
      margin-right: 2vw;
 }
 
-.left .content h1{
-font-size: 4vw;
-position: relative;
-bottom: 1.5vw;
-font-weight: 400;
+.left .content h1 {
+     font-size: 4vw;
+     position: relative;
+     bottom: 1.5vw;
+     font-weight: 400;
 }
 
-.left p{
+.left p {
      font-size: 2vw;
-     font-weight: 500;
-     letter-spacing: -4px;
+     font-weight: 100px;
+     letter-spacing: px;
 }
 
-.content button{
-     font-size: 2vw;
-padding: 1vw 4vw;
-margin-top: 1.5vw;
-border: none;
-background: linear-gradient(to left, #da291c, #8f01ff);
-transition: .5s;
+.content button {
+     font-size: 1.4vw;
+     padding: 1vw 4vw;
+     margin-top: 1.5vw;
+     border: none;
+     background-color: #B8C0FF;
+     transition: .5s;
 
 }
 
 
-.content button:hover{
+.content button:hover {
      scale: .95;
 }
 
 
-.right{
-   
+.right {
+
      margin: 5vw 0;
      justify-content: space-between;
      display: flex;
@@ -118,131 +120,138 @@ transition: .5s;
 }
 
 
-.right .img-container{
+.right .img-container {
      width: 50%;
      margin-left: 4vw;
 
 }
 
-.right .img-container img{
+.right .img-container img {
      max-width: 100%;
 
 }
 
 
-.right .content{
+.right .content {
      margin-left: 2vw;
      width: 60%;
 }
 
-.right .content h1{
+.right .content h1 {
      font-size: 4vw;
      position: relative;
      bottom: 1.5vw;
      font-weight: 400;
-     }
-     
-     .right p{ 
-          font-size: 2vw;
-          font-weight: 500;
-          letter-spacing: -4px;
-     }
+}
+
+.right p {
+     font-size: 2vw;
+     font-weight: 500;
+     /* letter-spacing: -4px; */
+}
 
 
-     .right .img-container{
-          width: 50%;
-          margin-left: 2vw;
+.right .img-container {
+     width: 50%;
+     margin-left: 2vw;
      /* background-color: pink; */
-     }
-     
-     .right .img-container img:hover{
-          max-width: 98%;
-          border: 1vw solid transparent;
-          background-image: linear-gradient(to right,#da291c,#8f01ff);
-     
-     }
-     
-      .img-container img{
-          max-width: 100%;
-          height: 100%;
-          transition: .4s;
-     }
-
-     .copy-right{
-          font-size: 2vw;
-     }
-
-
-
-
-     @media (max-width:600px) {
-   
-
-          .main .head{
-               font-size: 10vw;
-               margin:4vw 24%;
-               font-weight: 600;
-          }
-
-.left{
-     flex-wrap: wrap;
-     height: 73vh;
 }
 
-.left .img-container{
+.right .img-container img:hover {
+     max-width: 98%;
+     border: .3vw solid transparent;
+     background-image: linear-gradient(to right, #da291ca7, #9101ffa8);
+
+}
+
+.img-container img {
+     max-width: 100%;
+     height: 100%;
+     transition: .4s;
+}
+
+.copy-right {
+     color: white;
+     background-color: black;
+     font-size: 2vw;
+}
+
+.empty {
      width: 100%;
-
-}
-
-.left .content{
-     width: 100%;
-}
-
-.left .content h1{
-     font-size: 10vw;
-     display: block;
-     margin: 0 6px;
-}
-
-.content p{
-     font-size: 6vw;
-     letter-spacing: -1px;
-     margin-left: 6px;
-     padding: .4vw;
-}
-          
-.content button{
-margin:3vw 10px;
-     font-size: 6vw;
+     height: .2vw;
+     background-color: rebeccapurple;
 }
 
 
- 
-.main .right{
-     height: 70vh;
-     display: flex;
-     flex-wrap: wrap;
-     flex-direction: column-reverse;
-}
 
-.right .img-container{
-     width: 100%;
-
-}
-
-.right .content{
-     width: 100%;
-}
-
-.right .content h1{
-     font-size: 9vw;
-     display: block;
+@media (max-width:600px) {
 
 
-}
+     .main .head {
+          font-size: 10vw;
+          margin: 4vw 24%;
+          font-weight: 600;
+     }
 
-.news-letter h1{
-     font-size: 4vw;
-}
+     .left {
+          flex-wrap: wrap;
+          height: 73vh;
+     }
+
+     .left .img-container {
+          width: 100%;
 
      }
+
+     .left .content {
+          width: 100%;
+     }
+
+     .left .content h1 {
+          font-size: 10vw;
+          display: block;
+          margin: 0 6px;
+     }
+
+     .content p {
+          font-size: 6vw;
+          letter-spacing: -1px;
+          margin-left: 6px;
+          padding: .4vw;
+     }
+
+     .content button {
+          margin: 3vw 10px;
+          font-size: 6vw;
+     }
+
+
+
+     .main .right {
+          height: 70vh;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column-reverse;
+     }
+
+     .right .img-container {
+          width: 100%;
+
+     }
+
+     .right .content {
+          width: 100%;
+     }
+
+     .right .content h1 {
+          font-size: 9vw;
+          display: block;
+
+
+     }
+
+     .news-letter h1 {
+          font-size: 4vw;
+     }
+
+}
