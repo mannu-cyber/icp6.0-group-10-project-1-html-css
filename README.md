@@ -41,5 +41,5 @@ unwavering dedication, and a commitment to artistic excellence, we aim to illumi
 # Acknowledgments
  This is a complete contribution site . This is a group project by our G10 group from Rode to Code class. Thank You ROde To Code for Giving this group project Apportunity. We learn lots from this group project.
 
- # visite Our Website If any Query then contact to us | +91 776898578 |
+ # If any Query then contact to us | +91 776898578 |
 
