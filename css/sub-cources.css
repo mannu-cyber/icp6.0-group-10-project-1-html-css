@@ -28,24 +28,30 @@ html,body{
     flex-wrap: wrap;
 }
 .card{
+    position: relative;
     height: 408px;
     max-width: 350px;
     margin:2vw 20px ;
     background: white;
     transition: 0.4s;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+border-radius: 10px;
 
 }
-.card:hover{
-    height: 410px;
-border: 1px solid black;
-}
+
+
+
+
 .card-img{
     height: 200px;
     width: auto;
 
 }
 .card .img img{
+
+border-top-left-radius:10px ;
+border-top-right-radius:10px ;
+
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -66,6 +72,7 @@ border: 1px solid black;
     line-height: 20px;
 }
 .card .bottom-text{
+    
    padding: 0 20px 10px 20px;
    margin-top: 5px;
    background: white;
@@ -74,15 +81,31 @@ border: 1px solid black;
    transition: 0.1s;
 }
 .card:hover .bottom-text{
+    background-color: #90e0ef;
     opacity: 1;
     visibility: visible;
 }
+
+.card:hover .img img{
+    filter:blur(2px);
+}
+
+.card:hover{
+    background-color: #90e0ef;
+    scale: .95;
+    -webkit-box-shadow: 7.5px 15px 6.5px 1px rgba(164, 168, 128, 0.8);
+    -moz-box-shadow: 7.5px 15px 6.5px 1px rgba(164, 168, 128, 0.8);
+    box-shadow: 7.5px 15px 6.5px 1px rgba(164, 168, 128, 0.8);
+}
+
 .card .bottom-text .text{
     text-align: justify;
 }
 .card .bottom-text .btn{
     margin: 10px 0;
     text-align: left;
+
+   
 }
 .card .bottom-text .btn a{
     text-decoration: none;
@@ -91,13 +114,53 @@ border: 1px solid black;
     padding: 5px 8px ;
     border-radius: 3px;
     display: inline-flex;
-    transition: 2s;
+    transition: .5s;
+    font-size: 15px;
+    padding: 10px 35px;
+     position: absolute;
+    left: 110px;
+    bottom: 25px;
+  
+
 }
 .card .bottom-text .btn a:hover{
-    transition: 1s;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid gray;
+    color: black;
+
 }
 
-@media screen and (max-width:978px){
+
+
+.res{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+
+
+    nav h2{
+
+        display: none;
+        position: relative;
+        left: 5vw;
+    }
+
+    .res{
+        visibility: visible;
+        display: inline;
+        font-size: 7vw;
+position: relative;        
+left: 20vw;
+top: 2vw;
+
+    }
+
+    .card .bottom-text .btn a{
+        font-size: 15px;
+        padding: 1.5vw 40px;
+        }
     .container{
         flex-wrap: wrap;
         flex-direction: column;
@@ -109,3 +172,39 @@ border: 1px solid black;
     }
 
 }
+
+
+@media (min-width:601px) and (max-width:900px) {
+
+
+
+    nav h2{
+        position: relative;
+      left:50px ;
+    }
+    ul li{
+        display: none;
+    }
+}
+
+
+@media (min-width:950px) and (max-width:1150px) {
+
+
+    nav h2{
+        display: none;
+    }
+    
+    
+        .res{
+            visibility: visible;
+            display: inline;
+            font-size: 5vw;
+    position: relative;        
+    left: 10vw;
+    top: 1vw;
+    
+        }
+    
+        
+    }
