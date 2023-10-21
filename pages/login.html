@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
+    <link rel="stylesheet" href="../css/login.css">
 
     <style>
         *{
@@ -15,8 +17,7 @@
             background-size: cover;
             font-family: sans-serif;
             background-color: black;
-            color:blue;
-            background: none;
+            
         }
         .login-wrapper{
             height: 100vh;
@@ -26,7 +27,7 @@
             align-items: center;
         }
         .form{
-            position: relative;
+            
             width: 100%;
             max-width: 380px;
             padding: 80px 40px 40px;
@@ -144,23 +145,31 @@
         }
 
     </style>
+=======
+>>>>>>> 0754cc9789dff4506ca59dbf329d8380a49d9763
 </head>
+
 <body>
-<div class="login-wrapper">
-   <form action="" class="form">
-    <h2>Login</h2>
-    <div class="input-group">
-        <input type="text" placeholder="Enter Username"  name="loginUser" id="loginUser" required />
-       
-       
-     </div>
-   <div class="input-group">
-    <input type="password" placeholder="Enter Password" name="loginPassword" id="loginPassword" required />
-   
-   </div>
-   <input type="submit" value="Login" class="submit-btn" />
-   </form>
-</div>
-    
+    <div class="login-wrapper">
+        <form action="" class="form">
+            <p class="title">Login </p>
+            <div class="input-group">
+                <input type="text" placeholder="Enter Username" name="loginUser" id="loginUser" required />
+
+
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Enter Password" name="loginPassword" id="loginPassword" required />
+
+            </div>
+            <input type="submit" value="Login" class="submit-btn" />
+            <p class="signin" style="text-align: right; margin-bottom: 10px;">New here? <a
+                    href="../pages/registration.html">Registation</a></p>
+
+
+        </form>
+    </div>
+
 </body>
+
 </html>

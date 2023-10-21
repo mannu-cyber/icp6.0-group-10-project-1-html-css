@@ -1,5 +1,328 @@
+
 *{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
 }
+
+
+html, body{
+     min-width: 100%;
+     height: 100%;
+     background-color: #E7C6FF;
+}
+
+.hero{
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 45vh;
+}
+.hero h2{
+  font-size: 1.3vw;
+  margin-left: 5vw;
+  margin-top: .5vw;
+}
+
+.content{
+  margin-top: 1vw;
+  width: 60%;
+}
+
+.content h1{
+  font-size: 2.4vw;
+  color: #6971af;
+margin-left: 5vw;
+}
+
+.content p{
+  font-size: 1.3vw;
+  padding: 0 80px;
+}
+
+.img{
+  width: 20%;
+
+}
+
+.img img{
+  max-width: 100%;
+  filter: drop-shadow(10px 6px 3px rgb(195, 104, 223));
+
+}
+
+
+.head{
+
+  /* font-stretch: 500%; */
+  font-weight: 900;
+  text-align: center;
+  margin: 2vw 0;
+  font-size: 5vw;
+}
+
+
+.faculty-heading{
+
+  text-align: center;
+  font-size: 3vw;
+  text-decoration: underline;
+}
+
+
+
+
+.main-card{
+     position: relative;
+
+     flex-wrap:wrap;
+     width: auto;
+     margin: auto;
+     overflow-x:hidden ;
+     display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.faculty{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5vw 0;
+  height: 50vh;
+}
+
+
+   .icon-container{
+     position: absolute;
+     bottom: 30px;
+     left: 30px;
+     display: block;
+     margin: 10px auto;
+   }
+
+.icon-container i{
+     font-size: 2.5vw;
+     margin: 5px 25px;
+     color:#7079ba;
+     transition: .5s;
+}
+
+.icon-container i:hover{
+     scale: .90;
+     color: #231414af;
+}
+
+
+.tarif{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.tarif-cont:hover{
+  scale: .96;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+
+.tarif-cont{
+  transition: .5s;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px 35px;
+  background-color: white;
+}
+
+.tarif-cont h3{
+  font-size: 25px;
+  margin: 15px 0 ;
+
+}
+
+.tarif-cont p{
+  font-size: 18px;
+  /* padding: 10px; */
+}
+
+
+.card {
+  border-radius: 5px;
+  width: 290px;
+  height: 304px;
+  background: #f5f5f5;
+  padding: 2rem 1.5rem;
+  transition: box-shadow .3s ease, transform .2s ease;
+ }
+ 
+ .card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform .2s ease, opacity .2s ease;
+ }
+ 
+ /*Image*/
+ .card-avatar {
+  --size: 60px;
+ 
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  transition: transform .2s ease;
+  margin-bottom: 1rem;
+ }
+
+ .card-avatar img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+ }
+ 
+ 
+ /*Card footer*/
+ .card-social {
+  transform: translateY(200%);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  opacity: 0;
+  transition: transform .2s ease, opacity .2s ease;
+ }
+ 
+ .card-social__item {
+  list-style: none;
+ }
+ 
+ .card-social__item svg {
+  display: block;
+  height: 18px;
+  width: 18px;
+  fill: #515F65;
+  cursor: pointer;
+  transition: fill 0.2s ease ,transform 0.2s ease;
+ }
+ 
+ /*Text*/
+ .card-title {
+  color: #333;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 2rem;
+ }
+ 
+ .card-subtitle {
+  color: #859ba8;
+  font-size: 0.8em;
+ }
+ 
+ /*Hover*/
+ .card:hover {
+  box-shadow: 0 8px 50px #23232333;
+ }
+ 
+ .card:hover .card-info {
+  transform: translateY(-5%);
+ }
+ 
+ .card:hover .card-social {
+  transform: translateY(100%);
+  opacity: 1;
+ }
+ 
+ .card-social__item svg:hover {
+  fill: #232323;
+  transform: scale(1.1);
+ }
+ 
+
+ .card-avatar:hover {
+  transform: scale(1.1);
+ }
+
+
+ .footer{
+  height: 50vh;
+ }
+
+ @media (max-width:600px) {
+
+  body{
+    height: auto;
+  }
+
+
+.page1 .hero{
+  /* flex-wrap: wrap; */
+  margin: 0;
+}
+
+.img{
+  margin-left: 10px;
+  width: 50%;
+}
+
+.img img{
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+  
+
+.hero .content{
+ width: 50%;
+ margin: 0;
+}
+
+
+.content h1{
+  font-size: 25px;
+  margin: 0;
+
+}
+
+.content p{
+  margin-top: 10px;
+  font-size:15px;
+  width: 100%;
+  padding: 0;
+margin: 0;
+
+}
+
+.faculty-heading{
+  font-size: 30px;
+  margin-bottom: 2vw;
+}
+
+.tarif{
+  flex-wrap: wrap;
+  padding: 0;
+  
+
+}
+
+
+
+.faculty{
+margin: 2vw;
+height: auto;
+  flex-wrap: wrap;
+}
+
+.faculty .card{
+  margin-top: 2cqmax;
+}
+
+
+
+.footer{
+  height: auto;
+  flex-wrap: wrap;
+}
+
+ }
