@@ -373,7 +373,6 @@ body {
     font-size: 6vw;
   }
 
-<<<<<<< HEAD
   .Alumni-container {
     width: 80%;
     height: 50vh;
@@ -383,23 +382,6 @@ body {
     margin: 1vw auto;
     max-width: 100%;
   }
-=======
-.Alumni-container{
-  width: 80%;
-  height:auto;
-}
-
-.Alumni-container img:hover{
-  margin-left: 0;
-
-}
-
-
-.Alumni-container img{
-  margin: 1vw auto;
-  max-width: 100%;
-}
->>>>>>> d261ecfea182eedcb922abc569e45a265c69aeaf
 
   .Alumni-container .name {
     font-size: 5vw;
@@ -438,10 +420,8 @@ body {
 
   }
 
-<<<<<<< HEAD
 }
-=======
-}
+
 
 
 @media only screen and (max-width: 950px) and (min-width: 601px)  {
@@ -540,4 +520,3 @@ margin: 0 auto;
 
 
 }
->>>>>>> d261ecfea182eedcb922abc569e45a265c69aeaf
