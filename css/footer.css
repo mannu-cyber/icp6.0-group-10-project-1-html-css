@@ -130,9 +130,8 @@ body {
 }
 
 .newsletter button:hover {
-  scale: 0.95;
-  background-color: #5b5252;
-  color: white;
+  scale: 0.97;
+  color: rgba(253, 0, 0, 0.888);
   cursor: pointer;
 }
 
@@ -250,7 +249,7 @@ body {
 
 
   .address i:hover {
-    background-color: #000;
+    
     font-size: 8vw;
     cursor: pointer;
   }
