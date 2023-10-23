@@ -71,9 +71,8 @@ position: relative;
 bottom: 35px ;
 }
 
-form ul li a{
-    display: inline-block; 
-    color: red;
-}
 
+ul li{
+    display: none;
+}
 }
