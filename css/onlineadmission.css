@@ -49,3 +49,19 @@ table{
     text-align: center;
 
 }
+
+.sort{
+    visibility: hidden;
+}
+
+@media (max-width:600px) {
+    form{
+        width: 100vw;
+    }
+    
+.sort{
+visibility: visible;    
+
+}
+
+}
