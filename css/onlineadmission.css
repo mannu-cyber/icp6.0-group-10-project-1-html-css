@@ -51,7 +51,8 @@ table{
 }
 
 .sort{
-    visibility: hidden;
+display: none;
+
 }
 
 @media (max-width:600px) {
@@ -59,9 +60,20 @@ table{
         width: 100vw;
     }
     
-.sort{
-visibility: visible;    
+.logo{
+    display: none;
+}
 
+.sort{
+display: inline-block;
+color: white;
+position: relative;
+bottom: 35px ;
+}
+
+form ul li a{
+    display: inline-block; 
+    color: red;
 }
 
 }
