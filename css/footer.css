@@ -122,7 +122,8 @@ body {
 .newsletter button {
   font-size: 1.4vw;
   padding: 1vw 2vw;
-  background-color: #B8C0FF;
+  background: linear-gradient(-45deg, #B8C0FF 0%, #8f01ff 100% );
+
   margin-top: 1vw;
   border: none;
   transition: 1s;
@@ -138,7 +139,7 @@ body {
 .copyright {
   text-align: center;
   margin-top: 4vw;
-  background-color: #FFD6FF;
+  background-color:transparent;
   color: #000;
   padding: 2vw 0;
   font-size: 2vw;

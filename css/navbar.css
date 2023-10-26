@@ -71,7 +71,7 @@ nav ul li a:active{
 
 
 nav a:hover{
-  background: #E7C6FF;
+  background: linear-gradient(-45deg, #B8C0FF 0%, #8f01ff 100% );
   transition: .5s;
   color: black;
 }

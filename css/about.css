@@ -134,7 +134,7 @@ justify-content: space-around;
   border-radius: 5px;
   width: 300px;
   padding: 20px 35px;
-  background-color: white;
+  background: linear-gradient(-45deg, #b8c0ff90 0%, #9101ff4a 100% );
 }
 
 .tarif-cont h3{
@@ -153,7 +153,8 @@ justify-content: space-around;
   border-radius: 5px;
   width: 290px;
   height: 304px;
-  background: #f5f5f5;
+  background: linear-gradient(-45deg, #B8C0FF 0%, #8f01ff 100% );
+color: black;
   padding: 2rem 1.5rem;
   transition: box-shadow .3s ease, transform .2s ease;
  }
@@ -163,6 +164,7 @@ justify-content: space-around;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: black;
   transition: transform .2s ease, opacity .2s ease;
  }
  
@@ -216,7 +218,7 @@ justify-content: space-around;
  }
  
  .card-subtitle {
-  color: #859ba8;
+  color: #000000;
   font-size: 0.8em;
  }
  

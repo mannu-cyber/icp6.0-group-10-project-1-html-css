@@ -70,7 +70,8 @@ body {
   right: 25.5vw;
   padding: 1vw 4vw;
   position: relative;
-  background-color: #b8c0ff;
+  background: linear-gradient(-45deg, #B8C0FF 0%, #8f01ff 100% );
+
   border: none;
   transition: 0.5s;
   font-weight: 600;
@@ -89,7 +90,8 @@ body {
 
 /* course cards start*/
 .course {
-  background-color: #c8b6ff;
+  background: linear-gradient(-45deg, #B8C0FF 0%, #9101ff1d 100% );
+
   height: auto;
   box-shadow: 2px 1px 3px 2px black;
 }
@@ -109,19 +111,21 @@ body {
 }
 
 .card-list .card-item {
-  background: #fff;
+  background: linear-gradient(-45deg, #b8c0ffaa 0%rgba(145, 1, 255, 0.654)ff 100% );
+
   padding: 26px;
   border-radius: 8px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.542);
   list-style: none;
   cursor: pointer;
   text-decoration: none;
   border: 2px solid transparent;
-  transition: border 0.5s ease;
+  transition: 1s ease;
 }
 
 .card-list .card-item:hover {
   border: 2px solid #000;
+  scale: .97;
 }
 
 .card-list .card-item img {
@@ -173,7 +177,7 @@ body {
   color: #000;
   /* height: 40px; */
   border-radius: 10px;
-  background-color: #ffd6ff;
+  background: linear-gradient(-45deg, #B8C0FF 0%, #8f01ff 100% );
   /* margin-bottom: -10px; */
   margin-top: 40px;
   font-weight: 500;
@@ -204,10 +208,96 @@ body {
   box-shadow: 2px 1px 3px 2px black;
   width: 100%;
   justify-content: center;
-
+align-items: center;
   display: flex;
+  gap: 20px;
   /* flex-wrap: wrap; */
 }
+
+
+
+
+
+
+.card-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.card .front-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.card .front-content p {
+  font-size: 32px;
+  font-weight: 700;
+  opacity: 1;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.card .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  background: linear-gradient(-45deg, #B8C0FF 0%, #8f01ff 100% );
+  color: #e8e8e8;
+  padding: 20px;
+  line-height: 1.5;
+  border-radius: 5px;
+  pointer-events: none;
+  transform: translatex(100%);
+  transition: all 1.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card .content .heading {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.card:hover .content {
+  transform: translateY(0);
+}
+
+.card:hover .front-content {
+  transform: translateX(20%);
+}
+
+.card:hover .front-content p {
+  opacity: 0;
+}
+
+
+
+
+
+/* 
 
 .Alumni-container {
   font-size: 16px;
@@ -221,13 +311,17 @@ body {
   margin: 25px;
   padding: 20px;
   position: relative;
-  height: 440px;
+  height: 310px;
   text-align: center;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+
 }
 
 .Alumni-container:hover {
   box-shadow: 2px 2px 8px #000000;
   border-radius: 8px;
+  
+  transform: translateY(30%);
 }
 
 .alumni-profile {
@@ -239,10 +333,35 @@ body {
   margin-left: -7.8px;
 }
 
-.alumni-profile:hover {
+ .Alumni-container:hover .alumni-profile { 
   box-shadow: 2px 1px 5px black;
+  filter: opacity(1);
   margin-top: 5px;
   margin-left: -7.8px;
+  opacity: 0;
+}
+
+.Alumni-container .content{
+  transform: translateY(0);
+  height:100% ;
+  width: 100%;
+  transform: translateY(-96%);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background-color: rgba(255, 251, 251, 0.218);
+}
+
+.Alumni-container:hover .content{
+  display:block;
+  transform: translateY(0);
+}
+
+
+.Alumni-container:hover img{
+filter: blur(2px);
 }
 
 .name {
@@ -253,9 +372,15 @@ body {
   margin-top: 10px;
 }
 
-.Alumni-container p {
-  margin-top: 10px;
+.Alumni-container p:nth-child(1){
+  font-size: 25px;
 }
+
+.Alumni-container p {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+} */
 
 /* alumni cards end*/
 /* Empower section starts*/
