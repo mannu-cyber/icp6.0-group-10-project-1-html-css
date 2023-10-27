@@ -9,7 +9,7 @@ html,body{
    /* height: 100%; */
     display: grid;
     place-items: center;
-    background: linear-gradient(-45deg, #b8c0ff78 0%, #9101ff3d 100%);
+    background: linear-gradient(-45deg, #b8c0ff78 0%, #a546ee44 100%);
 
     text-align: center;
 }   

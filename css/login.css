@@ -7,7 +7,7 @@
 body {
     background-size: cover;
     font-family: sans-serif;
-    background-color: #FFD6FF;
+    background: linear-gradient(-45deg, #b8c0ff78 0%, #9101ff47 100%);
 }
 
 .login-wrapper {
