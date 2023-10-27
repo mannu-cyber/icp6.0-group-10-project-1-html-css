@@ -5,7 +5,7 @@
     font-family: 'poppins',seans-serif;
     box-sizing: border-box;
 }
-section{
+/* section{
     position: absolute;
     height: 100%;
     width: 100%;
@@ -13,39 +13,44 @@ section{
     background-size: cover;
     background-position: center;
     filter: blur(2px) brightness(30%);
-}
+} */
 html, body{
     display: flex;
-    min-height: 100vh;
+margin-top: 10px;
+border-radius: 10px;
     align-items: center;
     justify-content: center;
-    background-color: #FFD6FF;
+    background: linear-gradient(-45deg, #B8C0FF 0%, #8c56b657 100% );
+
     color: black;
 }
 .container{
     width: 400px;
-    background-color: rgb(255, 255, 255);
-    /* background-color: yellow; */
+    background-color:transparent;
+    background: linear-gradient(-45deg, #b8c0ff2e 0%, #9101ff01 100% );
+
 
 
     color: #000;
     box-shadow: 0 0 8px rgba(250,250,250,0.6);   
     opacity: 0.6;
-    height: 520px;
+    height: 620px;
     padding: 20px 30px ;
 border-radius: 10px;
 
-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5)
+box-shadow: 0 25px 25px rgba(0, 0, 0, 0.992)
 }
 .container form{
     width: 100%;
-    /* height: px; */
+    /* height: 600px; */
     padding-top: 4vw;
     text-align: center;
     /* padding: 25px 20ox; */
 }
 form h1{
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    position: relative;
+    bottom: 30px;
     color: rgb(0, 0, 0);
 }
 form .id{
@@ -76,7 +81,7 @@ form textarea{
     padding: 5px 15px;
     border: 1px solid #5c5c5c;
     border-radius: 3px;
-    background-color:#fff;
+    background-color:#ffffff;
     font-size: 20px;
     width: 100%;
     margin: 4px 0;
@@ -96,10 +101,13 @@ form textarea:focus::placeholder{
 
 
 button{
-    font-size: 1.5vw;
-    padding: .6vw 3vw;
-    margin: 3vw 0;
-    background-color: #ff6666;
+    font-size:17px;
+    padding: 10px 30px;
+    margin-top: 30px;
+  position: relative;
+  bottom: 10px;
+    background: linear-gradient(-45deg, #ffe4b8 0%, #ff0101 100% );
+
     color: #000;
     border: none;
     transition: .5s;
@@ -108,5 +116,63 @@ button{
 
 
 button:hover{
-    scale: .96;
+    scale: 1.2;
 }
+
+
+.star-widget{
+    position: absolute;
+    bottom: 20px    ;
+}
+
+
+
+.container-rating .star-widget input{
+    display: none;
+}
+.star-widget label{
+    font-size: 40px;
+    color: #6b0b9e;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+    color: #078117;
+}
+input:checked ~ label{
+    color: #ff0000;
+}
+
+input#rate-5:checked ~ label{
+    color: rgb(13, 114, 2);
+    text-shadow: 0 0 20px, rgb(147, 123, 3);
+}
+#rate-1:checked ~ form header:before{
+    content: "i just hate it😠";
+    color: #71040b;
+    
+}
+#rate-2:checked ~ form header:before{
+    content: "I don't like it😏";
+}
+#rate-3:checked ~ form header:before{
+    content: "it is awesome🤗";
+}
+#rate-4:checked ~ form header:before{
+    content: "i just like it😎";
+}
+#rate-5:checked ~ form header:before{
+    content: "i just love it😍";
+}
+form header{
+    width: 100%;
+    font-size: 25px;
+    color: #111111;
+    font-weight: 500;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+

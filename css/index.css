@@ -53,6 +53,11 @@ body {
   padding: 20px 0;
 }
 
+
+#whatsapp :hover{
+  scale: 1.2;
+
+}
 .top h3 {
   top: 6vw;
   font-size: 7vw;
@@ -81,6 +86,48 @@ body {
 .top h3:nth-child(1) {
   right: 16vw;
 }
+
+
+
+
+.top h3:nth-child(2){
+  overflow: hidden; 
+  animation: 
+  typin 3.5s steps(100, start),
+  blink-care 1s step-end infinite
+}
+
+@keyframes typing {
+  from { right: 0; }
+  to { width:100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+.top h3:nth-child(1){
+  overflow: hidden; 
+  animation: 
+  typing 3.5s steps(100, start),
+  blink-caret 1s step-end infinite
+}
+
+@keyframes typin {
+  from { width: 0; }
+  to { width:100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-care {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
 
 .top button:hover {
   background-color: #e7c6ff;
@@ -126,6 +173,7 @@ body {
 .card-list .card-item:hover {
   border: 2px solid #000;
   scale: .97;
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.542);
 }
 
 .card-list .card-item img {
@@ -187,7 +235,7 @@ body {
   background: transparent;
   color: #000;
   scale: 0.89;
-
+cursor: pointer;
   transition: 0.5s;
   border: 1px solid black;
 }
