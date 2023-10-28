@@ -26,10 +26,10 @@ p {
 }
 
 .main {
-     background-color: #FFD6FF;
+     background: linear-gradient(-45deg, #B8C0FF 0%, #9101ff63 100% );
      width: 100%;
      height: auto;
-     margin-bottom: 1vw;
+     padding-bottom: 1vw;
 }
 
 .main>h1 {
@@ -37,7 +37,7 @@ p {
      font-family: head;
      color: #000000cb;
      font-weight: 700;
-     margin: 2vw 35%;
+padding: 2vw 35%;
      font-size: 5vw;
 }
 
@@ -110,7 +110,7 @@ p {
 
 
 .right {
-
+padding-bottom:10px;
      margin: 5vw 0;
      justify-content: space-between;
      display: flex;

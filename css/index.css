@@ -149,8 +149,10 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   max-width: 1250px;
-padding: 20px auto;
-  padding: 20px;
+/* padding: 20px auto;
+*/
+padding-left: 70px; 
+padding-bottom: 20px;
   gap: 20px;
 }
 
@@ -268,7 +270,7 @@ text-align: center;
   letter-spacing: -5px;
   text-transform: uppercase;
   animation: waviy 1s infinite;
-  animation-delay: calc(.1s * var(--i));
+  animation-delay: calc(.2s * var(--i));
   
 }
 @keyframes waviy {
@@ -350,7 +352,7 @@ align-items: center;
   text-align: center;
   gap: 10px;
   background: linear-gradient(-45deg, #B8C0FF 0%, #8f01ff 100% );
-  color: #e8e8e8;
+  color: #000;
   padding: 20px;
   line-height: 1.5;
   border-radius: 5px;
@@ -381,7 +383,7 @@ align-items: center;
 /* alumni cards end*/
 
 
-
+ 
 
 
 

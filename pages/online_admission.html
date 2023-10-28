@@ -33,12 +33,74 @@
       
 <div class="admission">
 
+     <h1>Admission Form</h1>
+     
+     <div class="download-btn">
+              <a  href="../pdf/admission form.pdf" download>
+        <span class="box">download form</span>      </a>
+     </div>
+     
+
      <form action="#">
-<input type="text" class="input">
-<label for="enter your first name"> First Name</label>
+          <!-- <input style="display: inline; width: 100px; height: 100px; border-radius: 5px; padding-top: 40px; position: relative; left: 400px; top: px; border: 1px solid black;" type="file" name="fileToUpload" id="fileToUpload">
+          
+          
+                    <span style="position: absolute; right: 50px; top: 190px;">Upload your Photo</span> -->
+
+          <input  type="text" name="firstname" id="loginUser" required />
+          <label class="grp" for="loginUser">First Name</label>
+          
+
+          <input  type="text " name="lastname" id="lastname" required>
+          <label class="grp" for="lastname">Last Name</label>
+
+
+          <input type="date" id="date" required > 
+          <label class="grp" for="date"> Date of Birth</label>
+
+          <input type="email" id="email" required>
+          <label class="grp" for="email">Email</label>
+
+          <input type="tel" id="number" required>
+          <label class="grp" for="number">Mobile Number</label>
+          <br>
 
 
 
+          <div class="radio-btn">
+               <h2>Gender</h2>
+               <label class="rdo" for="male">Male</label>
+               <input  type="radio" name="gender" id="male" />
+            
+
+               <label class="rdo" for="female">Female</label>
+               <input type="radio" name="gender" id="female" />
+
+               <label class="rdo" for="other">Other</label>   
+               <input type="radio" name="gender" id="other" />
+          </div>
+
+
+          <br> <br>
+          <input type="text " id="address" required>
+          <label class="grp" for="address"> Address</label>
+
+          <input  type="text " id="cources" required>
+          <label
+          class="grp" for="cources"> Course</label>
+
+
+          <input type="date" id="start" required>
+          <label class="grp" for="start"> Possible Start Date</label>
+
+
+          <input  type="text" id="massage" required>
+          <label class="grp" for="massage">Massage</label>
+
+
+
+
+<button type="button"> Submit</button>
 
      </form>
 
