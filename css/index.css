@@ -103,15 +103,10 @@ body {
 }
 
 @keyframes typing {
-  from { right: 0; }
+  from { right: -30%; }
   to { width:100% }
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
 
 
 .top h3:nth-child(1){
@@ -122,15 +117,11 @@ body {
 }
 
 @keyframes typin {
-  from { width: 0; }
+  from { top: -30%; }
   to { width:100% }
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-care {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
+
 
 
 

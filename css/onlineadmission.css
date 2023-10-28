@@ -1,11 +1,25 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body{
-    background-color:#FFD6FF;
+
+
+.page1{
+    background: linear-gradient(-45deg, #B8C0FF 0%, #8f01ff 100% );
+    padding-top: 10px;
+}
+
+.heading{
+padding: 30px 0;
 
 }
+
+.heading span{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
 .header{
     color: rgb(14, 13, 13);
 }
@@ -19,6 +33,7 @@ align-items: center;}
     font-size: 40px;
     color: rgb(12, 11, 11);
     text-align: center;
+    margin-bottom: 50px;
 }
 h3{
     text-align: center;
@@ -35,11 +50,11 @@ h3{
 table{
     width: 50%;
     color: rgb(19, 18, 18);
-    background-color: rgb(199, 194, 194);
+    /* background-color: rgb(199, 194, 194); */
     border-collapse: collapse;
     font-size: 20px;
     font-family:sans-serif;
-    padding: 5px;
+    padding: px;
     border: 6px solid white;
     text-align: -webkit center;
 
