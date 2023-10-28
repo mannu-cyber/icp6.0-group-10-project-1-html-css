@@ -378,94 +378,13 @@ align-items: center;
 
 
 
-
-
-/* 
-
-.Alumni-container {
-  font-size: 16px;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.893);
-  background-color: white;
-  border: 2px solid;
-  box-shadow: 2px 3px #000;
-  width: 290px;
-  border-radius: 10px;
-  margin: 25px;
-  padding: 20px;
-  position: relative;
-  height: 310px;
-  text-align: center;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
-
-}
-
-.Alumni-container:hover {
-  box-shadow: 2px 2px 8px #000000;
-  border-radius: 8px;
-  
-  transform: translateY(30%);
-}
-
-.alumni-profile {
-  border-radius: 10px;
-  display: block;
-  height: 270px;
-  width: 270px;
-  margin-top: px;
-  margin-left: -7.8px;
-}
-
- .Alumni-container:hover .alumni-profile { 
-  box-shadow: 2px 1px 5px black;
-  filter: opacity(1);
-  margin-top: 5px;
-  margin-left: -7.8px;
-  opacity: 0;
-}
-
-.Alumni-container .content{
-  transform: translateY(0);
-  height:100% ;
-  width: 100%;
-  transform: translateY(-96%);
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
-  background-color: rgba(255, 251, 251, 0.218);
-}
-
-.Alumni-container:hover .content{
-  display:block;
-  transform: translateY(0);
-}
-
-
-.Alumni-container:hover img{
-filter: blur(2px);
-}
-
-.name {
-  color: #e5056a;
-  font-size: 25px;
-  font-weight: bolder;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.Alumni-container p:nth-child(1){
-  font-size: 25px;
-}
-
-.Alumni-container p {
-  padding: 10px;
-  margin-top: 10px;
-  font-size: 20px;
-} */
-
 /* alumni cards end*/
+
+
+
+
+
+
 /* Empower section starts*/
 .Empower {
   background-color: #c8b6ff;
@@ -545,6 +464,23 @@ filter: blur(2px);
     bottom: 4vw;
 
   }
+
+
+
+  .top h3:nth-child(2){
+    overflow: hidden; 
+    animation: 
+    typin 3.5s steps(100, start),
+    blink-care 1s step-end infinite
+  }
+@keyframes typin {
+  from{top:-300px}
+  to{
+
+  }
+  
+}
+
 
   .top h3 {
     font-size: 10vw;
