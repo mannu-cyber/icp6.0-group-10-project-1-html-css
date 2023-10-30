@@ -9,10 +9,18 @@
 html, body{
      min-width: 100%;
      height: 100%;
-     background-color: #E7C6FF;
-}
+     /* background: linear-gradient(-45deg, #B8C0FF 0%, #9101ff72 100% ); */
+     background-color: #d2adee;
 
-.hero{
+    }
+
+  
+
+    .page1{
+      background-color: transparent;
+    }
+    
+    .hero{
   padding: 30px;
   display: flex;
   justify-content: space-evenly;
@@ -134,7 +142,7 @@ justify-content: space-around;
   border-radius: 5px;
   width: 300px;
   padding: 20px 35px;
-  background: linear-gradient(-45deg, #b8c0ff90 0%, #9101ff4a 100% );
+  /* background: linear-gradient(-45deg, #b8c0ff90 0%, #9101ff4a 100% ); */
 }
 
 .tarif-cont h3{
@@ -153,7 +161,8 @@ justify-content: space-around;
   border-radius: 5px;
   width: 290px;
   height: 304px;
-  background: linear-gradient(-45deg, #B8C0FF 0%, #9101ff7f 100% );
+  /* background: linear-gradient(-45deg, #B8C0FF 0%, #9101ff7f 100% ); */
+  background-color: white;
 color: black;
   padding: 2rem 1.5rem;
   transition: box-shadow .3s ease, transform .2s ease;
@@ -247,8 +256,13 @@ color: black;
  }
 
 
+.main-ftr{
+  background-color:#FFD6FF;
+}
+
  .footer{
   height: 50vh;
+  /* background-color: red; */
  }
 
  @media (max-width:600px) {

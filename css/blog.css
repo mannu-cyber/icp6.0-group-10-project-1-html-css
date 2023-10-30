@@ -45,7 +45,7 @@ padding: 2vw 35%;
      font-weight: 900;
      font-family: "head";
      font-stretch: 300%;
-     color: #757cb2;
+     color: #7900d5;
 
 }
 
@@ -98,7 +98,8 @@ padding: 2vw 35%;
      padding: 1vw 4vw;
      margin-top: 1.5vw;
      border: none;
-     background-color: #B8C0FF;
+     background-color: #9101ff82;
+
      transition: .5s;
 
 }

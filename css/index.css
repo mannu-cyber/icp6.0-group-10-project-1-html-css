@@ -54,6 +54,11 @@ body {
   padding: 20px 0;
 }
 
+.main-top{
+  background: linear-gradient(-45deg, #B8C0FF 0%, #9101ff1d 100% );
+
+}
+
 
 #whatsapp :hover{
   scale: 1.2;
@@ -133,11 +138,14 @@ body {
 
 /* course cards start*/
 .course {
-  background: linear-gradient(-45deg, #B8C0FF 0%, #9101ff1d 100% );
 
   height: auto;
   padding-top: 30px;
   box-shadow: 2px 1px 3px 2px black;
+}
+
+.course .waviy{
+  font-size: auto;
 }
 
 .course h1 {
@@ -151,7 +159,8 @@ body {
   max-width: 1250px;
 /* padding: 20px auto;
 */
-padding-left: 70px; 
+padding-top: 50px;
+padding-left: 90px; 
 padding-bottom: 20px;
   gap: 20px;
 }
@@ -273,7 +282,7 @@ text-align: center;
   animation-delay: calc(.2s * var(--i));
   
 }
-@keyframes waviy {
+@keyframes wavi {
   0%,40%,100% {
     transform: translateY(0)
   }
@@ -297,6 +306,17 @@ align-items: center;
   gap: 20px;
   border: none;
   /* flex-wrap: wrap; */
+}
+
+
+
+.waviy-succ{
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: -5px;
+  padding: 20px;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.2s * var(--i));
 }
 
 
@@ -501,10 +521,25 @@ align-items: center;
 
   }
 
+
+
   .course span {
-    font-size: 5vw;
+    font-size: 10vw;
+    letter-spacing: -4;
+    padding: 0 ;
   }
 
+
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 1250px;
+  /* padding: 20px auto;
+  */
+  padding: 50px; 
+  padding-bottom: 20px;
+    gap: 20px;
+  }
 
   .course h3 {
     font-size: 5vw;
@@ -516,7 +551,15 @@ align-items: center;
     padding: 1.5vw 5vw;
   }
 
+
+
+  .waviy-succ{
+    font-size: 40px;
+  }
+
+
   .Alumni {
+    padding-top: 20px;
     flex-wrap: wrap;
     height: auto;
   }
@@ -527,6 +570,8 @@ align-items: center;
     font-size: 6vw;
   }
 
+
+
   .Alumni-container {
     width: 80%;
     height: 50vh;
@@ -535,6 +580,7 @@ align-items: center;
   .Alumni-container img {
     margin: 1vw auto;
     max-width: 100%;
+    padding: 4px;
   }
 
   .Alumni-container .name {
@@ -595,9 +641,15 @@ margin-left: 120px;
   margin: 50px 0;
 }
 
+.card-item{
+  /* width: 50%; */
+
+}
 .course .card-list {
+  padding-left: 0;
+  padding: 15px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); 
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr)); 
 }
 
 .course span{
@@ -605,11 +657,11 @@ margin-left: 120px;
 }
 
 .course h3{
-  font-size: 40px;
+  font-size: 14px;
 }
 
 .course button{
-  font-size: 40px ;
+  font-size: 20px ;
   padding: 15px 50px;
 }
 
@@ -618,10 +670,15 @@ margin-left: 120px;
   margin: 40px 0;
 }
 
+.waviy-succ{
+  font-size: 40px;
+}
+
 .Alumni{
   flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
   height: auto;
+  padding: 20px 0;
 }
 
 .Alumni-container{
@@ -657,19 +714,20 @@ margin: 0 auto;
 
 .Empower img{
   width: 100%;
-  height: 700px;
+  height: 400px;
 
 }
 
 .Empower h2{
-  font-size: 90px;
+  width: 100%;
+  font-size: 50px;
   margin-top: 0;
-  margin-left: 20px;
+  padding-left: 40px;
 }
 .Empower p{
-  font-size: 50px;
+  font-size: 20px;
   padding: 10px;
-  margin-left: 10px;
+  padding-left: 40px;
 }
 
 

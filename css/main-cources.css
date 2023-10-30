@@ -20,17 +20,20 @@ body {
   /* height: 100%; */
   display: grid;
   place-items: center;
-  background: linear-gradient(-45deg, #b8c0ff78 0%, #9101ff3d 100%);
   text-align: center;
 }
-.h1 {
+
+
+.main-container h1 {
   padding: 5px;
-  margin-top: 30px;
+  padding-top: 30px;
   font-weight: bolder;
 
   font-size: 60px;
   font-family: serif;
   color: #181212;
+  text-shadow: 0 9px 5px rgba(0, 0, 0, 0.38);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.483);
   
 /* animation: jump 3s  infinite; */
 
@@ -48,7 +51,7 @@ body {
         color: #a02ede;
         transform: translateY(-15px);
         margin-left: 15px;
-        text-shadow: 0 15px 5px rgba(0, 0, 0, 1);
+     
     }
 
 
@@ -58,15 +61,19 @@ body {
     }
 }
 
+.main-container{
+  background: linear-gradient(-45deg, #b8c0ff78 0%, #9101ff3d 100%);
 
+}
 
 
 .container {
-  padding: 0 40px;
+  padding:  40px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+border-bottom: 2px solid black;
 }
 
 .card {

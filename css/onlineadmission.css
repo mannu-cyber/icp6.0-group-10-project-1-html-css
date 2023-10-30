@@ -154,7 +154,7 @@ form .grp {
 form button {
   display: block;
   margin: 30px auto;
-  background: linear-gradient(-45deg, #b8c0ffa3 0%, #9101ff51 100%);
+  background: linear-gradient(-45deg, #b8c0ffa3 0%, #9101ff 100%);
   font-size: 23px;
   /* padding: 10px 35px; */
   border: none;
@@ -176,9 +176,10 @@ form button:hover {
 }
 
 .download-btn span {
-  color: rgb(58, 51, 94);
-  font-weight: 500;
-  border: 1px solid white;
+  color: rgb(3, 3, 3);
+  background-color: #9101ff82;
+    font-weight: 900;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
 }
 

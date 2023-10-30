@@ -12,7 +12,13 @@ html,body{
     background: linear-gradient(-45deg, #b8c0ff78 0%, #a546ee44 100%);
 
     text-align: center;
-}   
+}  
+
+.main-container{
+    background: linear-gradient(-45deg, #b8c0ff78 0%, #9101ff3d 100%);
+
+}
+
 .h1{
     padding: 5px;
     margin-top: 30px;
@@ -140,113 +146,15 @@ html,body{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-      /* 
-.card{
-    position: relative;
-    height: 408px;
-    max-width: 350px;
-    margin:2vw 20px ;
-    background: white;
-    transition: 0.4s;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-border-radius: 10px;
 
+    padding-bottom: 40px;
+    border-bottom: 2px solid black;
 }
 
-
-
-
-.card-img{
-    height: 200px;
-    width: auto;
-
-}
-.card .img img{
-
-border-top-left-radius:10px ;
-border-top-right-radius:10px ;
-
-    height: 100%;
+.main-ftr{
+    background-color:#ede1e1;
     width: 100%;
-    object-fit: cover;
 }
-.card .top-text{
-    padding: 5px;
-}
-.card .top-text .name{
-    font-size: 25px;
-    font-weight: 600;
-    color: #202020;
-    font-family: pt sans-serif;
-}
-.card .top-text p{
-    font-size: 20px;
-    font-weight: 600;
-    color: #e74c3c;
-    line-height: 20px;
-}
-.card .bottom-text{
-    
-   padding: 0 20px 10px 20px;
-   margin-top: 5px;
-   background: white;
-   opacity: 0;
-   visibility: hidden;
-   transition: 0.1s;
-}
-.card:hover .bottom-text{
-    background-color: #90e0ef;
-    opacity: 1;
-    visibility: visible;
-}
-
-.card:hover .img img{
-    filter:blur(2px);
-}
-
-.card:hover{
-    background-color: #90e0ef;
-    scale: .95;
-    -webkit-box-shadow: 7.5px 15px 6.5px 1px rgba(164, 168, 128, 0.8);
-    -moz-box-shadow: 7.5px 15px 6.5px 1px rgba(164, 168, 128, 0.8);
-    box-shadow: 7.5px 15px 6.5px 1px rgba(164, 168, 128, 0.8);
-}
-
-.card .bottom-text .text{
-    text-align: justify;
-}
-.card .bottom-text .btn{
-    margin: 10px 0;
-    text-align: left;
-
-   
-}
-.card .bottom-text .btn a{
-    text-decoration: none;
-    background: #e74c3c;
-    color: #f2f2f2;
-    padding: 5px 8px ;
-    border-radius: 3px;
-    display: inline-flex;
-    transition: .5s;
-    font-size: 15px;
-    padding: 10px 35px;
-     position: absolute;
-    left: 110px;
-    bottom: 25px;
-  
-
-}
-.card .bottom-text .btn a:hover{
-    cursor: pointer;
-    background-color: white;
-    border: 1px solid gray;
-    color: black;
-
-}
-
-*/
 
 
 .res{
