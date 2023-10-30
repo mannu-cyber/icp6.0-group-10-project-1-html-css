@@ -145,7 +145,7 @@ body {
     color: #fff;
     font-size: 16px;
     transform: .3s ease;
-    background-color: #9A9DE8;
+    /* background-color: #9A9DE8; */
     transition: .5s;
 }
 
