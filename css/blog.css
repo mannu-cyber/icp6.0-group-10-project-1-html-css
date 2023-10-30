@@ -185,9 +185,10 @@ padding-bottom:10px;
 
 
      .main .head {
-          font-size: 10vw;
-          margin: 4vw 24%;
+          font-size: 6vw;
+          /* margin: 4vw 24%; */
           font-weight: 600;
+          width: 100vw;
      }
 
      .left {
