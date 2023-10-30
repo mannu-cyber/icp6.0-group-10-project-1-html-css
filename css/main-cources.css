@@ -157,102 +157,9 @@ border-bottom: 2px solid black;
   transition: 0.5s;
 }
 
-/* .card {
-  position: relative;
-  border-radius: 5px;
-  height: 400px;
-  max-width: 350px;
-  margin: 2vw 20px;
-  background: white;
-  transition: 0.4s;
-  border-radius: 10px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.817);
-}
-.card:hover {
-  background-color: #90e0ef;
-  scale: 0.95;
-  -webkit-box-shadow: 7.5px 15px 6.5px 1px rgba(164, 168, 128, 0.8);
-  -moz-box-shadow: 7.5px 15px 6.5px 1px rgba(164, 168, 128, 0.8);
-  box-shadow: 7.5px 15px 6.5px 1px rgba(164, 168, 128, 0.8);
-}
-
-.card .name {
-  font-family: head;
-}
-
-.card-img {
-  height: 200px;
-  width: auto;
-}
-.card .img img {
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  padding: 2px;
-}
-.card .top-text {
-  padding: 5px;
-}
-.card .top-text .name {
-  font-size: 25px;
-  font-weight: 600;
-  color: #202020;
-  font-family: pt sans-serif;
-}
-.card .top-text p {
-  font-size: 20px;
-  font-weight: 600;
-  color: #e74d3c9a;
-  line-height: 20px;
-}
-.card .bottom-text {
-  font-family: para;
-  padding: 0 20px 10px 20px;
-  margin-top: 5px;
-  background: white;
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.5s;
-  background-color: #90e0ef;
-}
-
-.card:hover .img img {
-  filter: blur(2px);
-}
-
-.card:hover .bottom-text {
-  opacity: 1;
-  visibility: visible;
-}
-.card .bottom-text .text {
-  text-align: justify;
-}
-.card .bottom-text .btn {
-  margin: 10px 0;
-  border: 1px solid black;
-  text-align: left;
-  display: inline-block;
-  border-radius: 3px;
-}
-.card .bottom-text .btn a {
-  text-decoration: none;
-  background: #e74c3c;
-  color: #f2f2f2;
-  padding: 5px 8px;
-  border-radius: 3px;
-  display: inline-flex;
-  transition: 0.5s;
-  font-size: 15px;
-  padding: 10px 35px;
-  position: absolute;
-  left: 110px;
-  bottom: 20px;
-} */
 
 #check {
-  visibility: hidden;
+  visibility:visible;
 }
 
 .res {
@@ -271,6 +178,10 @@ border-bottom: 2px solid black;
     padding: 1.5vw 40px;
   }
 
+  
+.main-container h1{
+  font-size: 40px;
+}
   .checkbtn {
     display: block;
   }

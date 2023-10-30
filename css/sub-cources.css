@@ -163,7 +163,9 @@ text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.504);
 
 @media screen and (max-width:600px){
 
-
+.h1{
+    font-size: 35px;
+}
     nav h2{
 
         display: none;
