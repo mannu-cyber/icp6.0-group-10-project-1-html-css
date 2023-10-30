@@ -315,8 +315,7 @@ align-items: center;
   font-size: 60px;
   letter-spacing: -5px;
   padding: 20px;
-  animation: waviy 1s infinite;
-  animation-delay: calc(.2s * var(--i));
+text-shadow: 5px 5px 10px rgb(48, 34, 34);
 }
 
 
