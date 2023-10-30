@@ -27,30 +27,30 @@ html,body{
     font-family: serif;
     color:#202020;
       
-/* animation: jump 3s  infinite; */
-
+animation: jump 3s  infinite;
+text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.504);
 }
 
 
-@keyframes jump {
-    0%{
+@keyframes jum {
+    100%{
         color: #ffffff1a;
         transform: translateY(0);
         margin-left:0 ;
     }
     
-    25%{
+    /* 25%{
         color: #824002;
         transform: translateY(-15px);
         margin-left: 15px;
-        text-shadow: 0 15px 5px rgba(0, 0, 0, 1);
+      
     }
 
 
     100%{
         color: #ffffff1a;
         transform: translateY(0);
-    }
+    } */
 }
 
 
