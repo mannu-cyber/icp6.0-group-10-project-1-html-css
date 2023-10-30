@@ -141,7 +141,7 @@ body {
 
   height: auto;
   padding-top: 30px;
-  box-shadow: 2px 1px 3px 2px black;
+  box-shadow: 2px 1px 3px 2px rgb(119, 3, 3);
 }
 
 .course .waviy{
@@ -159,6 +159,8 @@ body {
   max-width: 1250px;
 /* padding: 20px auto;
 */
+
+border: none;
 padding-top: 50px;
 padding-left: 90px; 
 padding-bottom: 20px;
@@ -280,15 +282,6 @@ text-align: center;
   text-transform: uppercase;
   animation: waviy 1s infinite;
   animation-delay: calc(.2s * var(--i));
-  
-}
-@keyframes wavi {
-  0%,40%,100% {
-    transform: translateY(0)
-  }
-  20% {
-    transform: translateY(-20px)
-  }
 }
 
 
@@ -315,9 +308,13 @@ align-items: center;
   font-size: 60px;
   letter-spacing: -5px;
   padding: 20px;
-text-shadow: 5px 5px 10px rgb(48, 34, 34);
+text-shadow: 5px 5px 10px rgb(48, 34, 34); 
 }
 
+.waviy-succ span{
+  -webkit-box-reflect:below;
+
+}
 
 
 
@@ -640,10 +637,7 @@ margin-left: 120px;
   margin: 50px 0;
 }
 
-.card-item{
-  /* width: 50%; */
 
-}
 .course .card-list {
   padding-left: 0;
   padding: 15px;

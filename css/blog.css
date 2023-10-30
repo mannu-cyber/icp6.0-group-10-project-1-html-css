@@ -14,10 +14,6 @@
      box-sizing: border-box;
 }
 
-/* html, body{
-     width: 100%;
-     min-width: 100%;
-} */
 
 
 p {
@@ -26,7 +22,7 @@ p {
 }
 
 .main {
-     background: linear-gradient(-45deg, #B8C0FF 0%, #9101ff63 100% );
+     background-color: #d2adee80;
      width: 100%;
      height: auto;
      padding-bottom: 1vw;
