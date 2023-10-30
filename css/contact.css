@@ -87,6 +87,11 @@ padding: 20px;
         display: none;
     }
     
+
+.container{
+    width: 100%;
+}
+
 }
 
 
